@@ -7,7 +7,7 @@ file { 'ect/ssh/ssh_cofig':
 content =>"
 
 	#SSH client configuration
-	host"
+	host*
 	IdentityFile ~/.ssh/school
 	PasswordAuthentication no
 	",
